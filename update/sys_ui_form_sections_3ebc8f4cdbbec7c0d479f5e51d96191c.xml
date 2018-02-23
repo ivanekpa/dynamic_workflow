@@ -15,6 +15,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-12-10 15:39:51</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin.xxzapotp</sys_created_by>
+            <sys_created_on>2017-11-28 10:01:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fabc8f4cdbbec7c0d479f5e51d96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_tieoy_dyn_wf_conf" name="x_tieoy_dyn_wf_conf" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">3ebc8f4cdbbec7c0d479f5e51d96191c</sys_ui_form>
+            <sys_ui_section display_value="">02190ebbdbe24fc043269414db961968</sys_ui_section>
+            <sys_updated_by>admin.xxzapotp</sys_updated_by>
+            <sys_updated_on>2017-11-28 10:01:00</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_tieoy_dyn_wf_conf</name>
             <roles/>

@@ -73,21 +73,21 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin.ivanepav</sys_created_by>
-            <sys_created_on>2017-12-13 09:40:50</sys_created_on>
+            <sys_created_on>2018-01-08 12:50:11</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
             <sys_domain_path>!!!/</sys_domain_path>
-            <sys_id>75f79c09dbcf830043269414db961977</sys_id>
+            <sys_id>4dac76d9dbaf030462f27a0bbf961949</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>x_tieoy_dyn_wf_m2m_item2conf</sys_name>
-            <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
+            <sys_name/>
+            <sys_package/>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
-            <sys_update_name>sys_ui_list_x_tieoy_dyn_wf_m2m_item2conf_null_774190f01f1310005a3637b8ec8b70ef</sys_update_name>
+            <sys_update_name/>
             <sys_updated_by>admin.ivanepav</sys_updated_by>
-            <sys_updated_on>2017-12-13 09:40:50</sys_updated_on>
-            <sys_user/>
+            <sys_updated_on>2018-01-08 12:50:11</sys_updated_on>
+            <sys_user display_value="Ivanek Admin Pavel">42883ae2db36620062f27a0bbf9619cf</sys_user>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>

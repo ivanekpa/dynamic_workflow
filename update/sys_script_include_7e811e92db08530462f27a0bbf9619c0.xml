@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_tieoy_dyn_wf.DynamicWorkflowAjaxUtil</api_name>
+        <client_callable>true</client_callable>
+        <description>Client callable script with function set</description>
+        <name>DynamicWorkflowAjaxUtil</name>
+        <script><![CDATA[var DynamicWorkflowAjaxUtil = Class.create();
+DynamicWorkflowAjaxUtil.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getRelatedParameters : function(){
+		
+		var relation_list = [];	
+		
+		var config_sys_id = this.getParameter("sysparm_sys_id")+"";
+		var gr_item_to_conf = new GlideRecord("x_tieoy_dyn_wf_m2m_item2conf");
+		gr_item_to_conf.addQuery("dynamic_workflow_configuration", config_sys_id);
+		gr_item_to_conf.orderBy("order");
+		gr_item_to_conf.query();
+		
+		while(gr_item_to_conf.next()){
+			
+			var item_obj = {
+				item_name : gr_item_to_conf.dynamic_workflow_item.name+"",
+				item_sys_id : gr_item_to_conf.dynamic_workflow_item.sys_id+"",
+				input_parameter_list : [],
+				output_parameter_list : []
+			};
+				
+			var item_sys_id = gr_item_to_conf.dynamic_workflow_item.sys_id+"";
+			var gr_param = new GlideRecord("x_tieoy_dyn_wf_param");
+			gr_param.addQuery("dynamic_workflow_item", item_sys_id);
+			gr_param.query();
+			
+			while(gr_param.next()){
+				
+				var param_obj = {
+					name : gr_param.name+"",
+					value : "",
+					override : false,
+					sys_id : "",
+					url : ""
+				};
+				
+				var param_sys_id = gr_param.sys_id+"";
+				var gr_param_config = new GlideRecord("x_tieoy_dyn_wf_param_conf");
+				gr_param_config.addQuery("dynamic_workflow_configuration", config_sys_id);
+				gr_param_config.addQuery("dynamic_workflow_parameter", param_sys_id);
+				gr_param_config.query();
+				
+				if(gr_param_config.next()){
+					param_obj.value = gr_param_config.value+"";
+					param_obj.override = true;
+					param_obj.sys_id = gr_param_config.sys_id+"";
+					param_obj.url = gs.getProperty('glide.servlet.uri') + gr_param_config.getLink();
+				}else{
+					param_obj.value = gr_param.default_value+"";
+					param_obj.sys_id = gr_param.sys_id+"";
+					param_obj.url = gs.getProperty('glide.servlet.uri') + gr_param.getLink();
+				}
+				if(gr_param.type == "Input"){
+					item_obj.input_parameter_list.push(param_obj);
+				}else{
+					item_obj.output_parameter_list.push(param_obj);
+				}
+				
+			}
+			relation_list.push(item_obj);
+		}		
+		return JSON.stringify(relation_list);
+	},
+	type: 'DynamicWorkflowAjaxUtil'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin.xxgodzip</sys_created_by>
+        <sys_created_on>2018-02-05 09:16:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7e811e92db08530462f27a0bbf9619c0</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>DynamicWorkflowAjaxUtil</sys_name>
+        <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
+        <sys_update_name>sys_script_include_7e811e92db08530462f27a0bbf9619c0</sys_update_name>
+        <sys_updated_by>admin.xxgodzip</sys_updated_by>
+        <sys_updated_on>2018-02-06 13:03:01</sys_updated_on>
+    </sys_script_include>
+</record_update>

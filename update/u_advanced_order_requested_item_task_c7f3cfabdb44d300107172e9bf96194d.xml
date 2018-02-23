@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="u_advanced_order_requested_item_task">
+    <u_advanced_order_requested_item_task action="INSERT_OR_UPDATE">
+        <sys_class_name>u_advanced_order_requested_item_task</sys_class_name>
+        <sys_created_by>admin.kelnajir</sys_created_by>
+        <sys_created_on>2018-02-09 09:40:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c7f3cfabdb44d300107172e9bf96194d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
+        <sys_update_name>u_advanced_order_requested_item_task_c7f3cfabdb44d300107172e9bf96194d</sys_update_name>
+        <sys_updated_by>admin.kelnajir</sys_updated_by>
+        <sys_updated_on>2018-02-09 09:40:18</sys_updated_on>
+        <u_assignment_script/>
+        <u_condition/>
+        <u_description>Order Enterprise Voice service&#13;
+</u_description>
+        <u_enable_automatic_delivery>true</u_enable_automatic_delivery>
+        <u_expected_delivery_time/>
+        <u_fulfillment_config display_value="Order Enterprise Voice service">65ee685ddb430fc4107172e9bf9619aa</u_fulfillment_config>
+        <u_group/>
+        <u_item/>
+        <u_orchestration_workflow display_value="Dynamic workflow - Master">44758ac9db4857c062f27a0bbf9619de</u_orchestration_workflow>
+        <u_order>200</u_order>
+        <u_requested_item display_value="RITM0000094587">0ff3cfabdb44d300107172e9bf961934</u_requested_item>
+        <u_ritm_created/>
+        <u_ritm_created_tmp/>
+        <u_schedule/>
+        <u_service_offering display_value="FSO VOIP, Enterprise Voice 24/7 (ETA)">1976d65e3716cf00a919616043990e0a</u_service_offering>
+        <u_short_description>Order Enterprise Voice service</u_short_description>
+        <u_skills/>
+        <u_standard_change_template/>
+        <u_task_created display_value="TASK0000105050">73f303ebdb44d300107172e9bf961936</u_task_created>
+        <u_task_type>catalog_task</u_task_type>
+        <u_template/>
+        <u_type>direct</u_type>
+        <u_user/>
+        <u_workflow/>
+        <u_workflow_variables>{ "u_workflow_inputs" : "DYNWFCONF0001010" } </u_workflow_variables>
+    </u_advanced_order_requested_item_task>
+</record_update>

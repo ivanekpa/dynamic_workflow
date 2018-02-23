@@ -64,6 +64,7 @@ DynamicWorkflowUtil.prototype = {
 	getConfigurationSet: function(conf_sys_id,conf_execution_id){
 		var m2m = new GlideRecord('x_tieoy_dyn_wf_m2m_item2conf');
 		m2m.addQuery('dynamic_workflow_configuration', conf_sys_id);
+		m2m.addQuery('dynamic_workflow_item.workflow', '!=', '');
 		m2m.orderBy('order');
 		m2m.query();
 
@@ -85,11 +86,11 @@ DynamicWorkflowUtil.prototype = {
 		    	workflow  : m2m.dynamic_workflow_item.workflow+"",
 		    	variables : {}
 		    });
+		
+			//Create workflow execution record - for item
+			this._createWorkflowExecution(conf_execution_id,m2m.dynamic_workflow_item.sys_id);
 						
 		}
-
-		//Create workflow execution record
-		this._createWorkflowExecution(conf_execution_id,m2m.dynamic_workflow_item.sys_id);
 		
 		//Update workflow execution record state
 		this._updateConfigurationExecutionState(conf_execution_id,'In Progress');
@@ -150,7 +151,9 @@ DynamicWorkflowUtil.prototype = {
 			gs.info('DWF - loadItemWFVariables: Create WF Parameter value record: ' + conf_execution_id +", "+ defaultParameters.sys_id +", "+ variable);
 			this._createWorkflowParameterValue(conf_execution_id,defaultParameters.sys_id,variable);
 				
-			
+			//Make a link to execution
+
+
 		}
 
 		WFParamList.push(vars);
@@ -221,6 +224,39 @@ DynamicWorkflowUtil.prototype = {
 		
 		return addEvent;
 	},
+	/*
+	** find the range of order for conditioned items
+	** returns object {
+						start : ${first order parameter},
+						end : ${second order parameter}
+					  }
+	*/
+	getExcludedOrderRange : function(conf_sys_id,conf_execution_id){
+		var m2m = new GlideRecord('x_tieoy_dyn_wf_m2m_item2conf');
+		m2m.addQuery('dynamic_workflow_configuration', conf_sys_id);
+		m2m.addQuery('dynamic_workflow_item.workflow', '');
+		m2m.orderBy('order');
+		m2m.query();
+
+		if (m2m.hasNext() == false) {
+			return false;
+		}
+
+		//Create ordered array with item names and vars
+		var arr_items = [];
+
+		while (m2m.next()) {
+			//Get parameters			
+		    arr_items.push({
+		    	order     : m2m.order+"",
+		    	item_id	  : m2m.dynamic_workflow_item+""
+		    });
+						
+		}
+		
+		return this._getExcludedOrderRange(arr_items);
+
+	},
 	
 	_createConfigurationExecution: function(conf_id) {
 
@@ -271,6 +307,31 @@ DynamicWorkflowUtil.prototype = {
 		}		
 		return true;
 	},
+	
+	_getExcludedOrderRange : function(configuration_set){
+		var excluded_range = {
+			start : 0,
+			end : 0
+		};
+		var evaluator = new GlideScopedEvaluator();
+		//Load MAPPING var from scratchpad
+		var MAPPING = this._wf.scratchpad.MAPPING;
+
+		for(var index = 0; index < configuration_set.length; index++){
+			var conf = configuration_set[index];
+			var gr = new GlideRecord("x_tieoy_dyn_wf_param");
+			gr.addQuery("dynamic_workflow_item", conf.item_id);
+			gr.query();
+			while(gr.next()){
+				if(evaluator.evaluateScript(gr, 'default_value', MAPPING)){
+					var range = gr.variable_name.toString().split(',').map(Number); 
+					excluded_range.start = range[0];
+					excluded_range.end = range[1];
+				}
+			}
+		}	
+		return excluded_range;
+	},
 
 	type: 'DynamicWorkflowUtil'
 };]]></script>
@@ -279,14 +340,14 @@ DynamicWorkflowUtil.prototype = {
         <sys_created_on>2017-11-23 11:36:49</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1f92b1a2db6a03001388f9c41d9619c9</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name>DynamicWorkflowUtil</sys_name>
         <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
         <sys_policy>read</sys_policy>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
         <sys_update_name>sys_script_include_1f92b1a2db6a03001388f9c41d9619c9</sys_update_name>
-        <sys_updated_by>admin.kelnajir</sys_updated_by>
-        <sys_updated_on>2018-01-04 11:38:20</sys_updated_on>
+        <sys_updated_by>admin.xxgodzip</sys_updated_by>
+        <sys_updated_on>2018-02-20 09:31:00</sys_updated_on>
     </sys_script_include>
 </record_update>

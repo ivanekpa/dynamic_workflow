@@ -4,62 +4,17 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_tieoy_dyn_wf_param" element="NULL" name="x_tieoy_dyn_wf_param" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="8a1a14123700120015cfd3e853990e30">9c3d62f3dbaec7001388f9c41d96196c</list_id>
+            <list_id display_value="x_tieoy_dyn_wf_param" element="NULL" name="x_tieoy_dyn_wf_param" parent="NULL" relationship="NULL" sys_domain="global" view="8a1a14123700120015cfd3e853990e30">261c82dfdb445300107172e9bf9619da</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>admin.ivanepav</sys_created_by>
-            <sys_created_on>2017-11-27 13:04:43</sys_created_on>
-            <sys_id>143d62f3dbaec7001388f9c41d96196d</sys_id>
+            <sys_created_by>admin.capppmar</sys_created_by>
+            <sys_created_on>2018-02-08 10:57:22</sys_created_on>
+            <sys_id>e21c82dfdb445300107172e9bf9619db</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin.ivanepav</sys_updated_by>
-            <sys_updated_on>2017-11-27 13:04:43</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>dynamic_workflow_item.name</element>
-            <list_id display_value="x_tieoy_dyn_wf_param" element="NULL" name="x_tieoy_dyn_wf_param" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="8a1a14123700120015cfd3e853990e30">9c3d62f3dbaec7001388f9c41d96196c</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>1</position>
-            <sum>false</sum>
-            <sys_created_by>admin.ivanepav</sys_created_by>
-            <sys_created_on>2017-11-27 13:04:43</sys_created_on>
-            <sys_id>943d62f3dbaec7001388f9c41d96196d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin.ivanepav</sys_updated_by>
-            <sys_updated_on>2017-11-27 13:04:43</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>dynamic_workflow_item.description</element>
-            <list_id display_value="x_tieoy_dyn_wf_param" element="NULL" name="x_tieoy_dyn_wf_param" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="8a1a14123700120015cfd3e853990e30">9c3d62f3dbaec7001388f9c41d96196c</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>2</position>
-            <sum>false</sum>
-            <sys_created_by>admin.ivanepav</sys_created_by>
-            <sys_created_on>2017-11-27 13:04:43</sys_created_on>
-            <sys_id>183d62f3dbaec7001388f9c41d96196d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin.ivanepav</sys_updated_by>
-            <sys_updated_on>2017-11-27 13:04:43</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>type</element>
-            <list_id display_value="x_tieoy_dyn_wf_param" element="NULL" name="x_tieoy_dyn_wf_param" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="8a1a14123700120015cfd3e853990e30">9c3d62f3dbaec7001388f9c41d96196c</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>3</position>
-            <sum>false</sum>
-            <sys_created_by>admin.ivanepav</sys_created_by>
-            <sys_created_on>2017-11-27 13:04:43</sys_created_on>
-            <sys_id>983d62f3dbaec7001388f9c41d96196d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin.ivanepav</sys_updated_by>
-            <sys_updated_on>2017-11-27 13:04:43</sys_updated_on>
+            <sys_updated_by>admin.capppmar</sys_updated_by>
+            <sys_updated_on>2018-02-08 10:57:22</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>

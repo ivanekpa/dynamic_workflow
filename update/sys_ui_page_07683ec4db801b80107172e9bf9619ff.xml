@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[$j("#submit").on("click", function(e){
+	var table = $j('#task_sys_id').val();
+	if(!table){
+		e.preventDefault();
+		$j('#error').removeClass('hide');
+		return false;
+	}
+});]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_tieoy_dyn_wf_test_dynamic_workflow.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<g:requires name="styles/heisenberg/heisenberg_all.css" includes="true"/>
+	
+	<g:ui_form>
+		<div class="form-group">
+			<input type="hidden" id="conf_number" name="conf_number" value="${sysparm_conf_number}" />
+			<label for="task_sys_id">Choose the task:</label>
+			<g:ui_reference id="task_sys_id" name="task_sys_id" table="task" mandatory="true"/>
+		</div>
+		<div id="error" class="outputmsg outputmsg_error notification notification-danger hide"><span class="notification-icon icon-cross-circle"><span class="sr-only">Error Message</span></span><div class="outputmsg_text">Task field is mandatory. Choose the task.</div></div>
+		<div align="right">
+			<g:dialog_button id="submit" type="submit" class="btn btn-primary">Run</g:dialog_button>
+		</div>
+	</g:ui_form>
+	
+</j:jelly>]]></html>
+        <name>test_dynamic_workflow</name>
+        <processing_script><![CDATA[var gr_wf = new GlideRecord("wf_workflow");
+if(gr_wf.get("name","Dynamic workflow - Master")){
+	var workflow_sys_id = gr_wf.sys_id.toString();
+	var gr_task = new GlideRecord('task');
+	
+	if(gr_task.get(task_sys_id)){
+		
+		var gr_specyfic = new GlideRecord(gr_task.sys_class_name);
+		if(gr_specyfic.get(task_sys_id)){
+			
+			var wf = new global.Workflow();
+			wf.startFlow(workflow_sys_id, gr_specyfic, "insert", {u_workflow_inputs: conf_number}); // conf_number - number of "Dynamic workflow configuration"
+				gs.addInfoMessage("Dynamic Workflow was started.");
+				response.sendRedirect( "/task.do?sys_id=" + gr_specyfic.sys_id );
+				
+			} else {
+				gs.addErrorMessage("Error");
+				response.sendRedirect( gs.getSession().getUrlOnStack() );
+			}
+			
+		} else {
+			gs.addErrorMessage("Task field is mandatory. Choose the task.");
+			response.sendRedirect( gs.getSession().getUrlOnStack() );
+		}
+	}else {
+			gs.addErrorMessage("Unexpected error occur. Please contact application administrator.");
+			response.sendRedirect( gs.getSession().getUrlOnStack() );
+		}
+	
+	]]></processing_script>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin.xxgodzip</sys_created_by>
+        <sys_created_on>2018-01-29 11:51:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>07683ec4db801b80107172e9bf9619ff</sys_id>
+        <sys_mod_count>100</sys_mod_count>
+        <sys_name>test_dynamic_workflow</sys_name>
+        <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
+        <sys_update_name>sys_ui_page_07683ec4db801b80107172e9bf9619ff</sys_update_name>
+        <sys_updated_by>admin.xxgodzip</sys_updated_by>
+        <sys_updated_on>2018-01-31 09:26:47</sys_updated_on>
+    </sys_ui_page>
+</record_update>

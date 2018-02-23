@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[var ga = new GlideAjax("x_tieoy_dyn_wf.DynamicWorkflowAjaxUtil");
+ga.addParam('sysparm_name', 'getRelatedParameters');
+ga.addParam('sysparm_sys_id', g_form.getUniqueValue());
+ga.getXMLAnswer(objectParser);
+
+function objectParser(response){
+	var obj = JSON.parse(response);
+	
+	for (var index=0; index< obj.length; index++) {
+		var innerHtml = document.getElementById("items").innerHTML;
+		var item = obj[index];
+		//add items
+		document.getElementById("items").innerHTML = innerHtml + '<li style="margin-left:15px"><span class="leaf" id="' + item.item_sys_id + '"><b>' + item.item_name + '</b></span></li>';
+		
+		var input_param_length = item.input_parameter_list.length;
+		if(input_param_length > 0){
+			//add next level
+			var item_innerHtml = document.getElementById(item.item_sys_id).innerHTML;
+			document.getElementById(item.item_sys_id).innerHTML = item_innerHtml + '<ul style="margin-left:15px" id="ul' + item.item_sys_id + '"></ul>';
+			item_innerHtml = document.getElementById("ul" + item.item_sys_id).innerHTML;
+			document.getElementById("ul" + item.item_sys_id).innerHTML = item_innerHtml + '<li style="margin-left:15px"><span class="leaf" id="input_' + item.item_sys_id + '">Input Parmeters</span></li>';
+			//add next level
+			var item_input_innerHtml = document.getElementById("input_" + item.item_sys_id).innerHTML;
+			document.getElementById("input_" + item.item_sys_id).innerHTML = item_input_innerHtml+'<ul style="margin-left:15px" id="ul_input' + item.item_sys_id + '"></ul>';
+			
+			for (var pindex=0; pindex< input_param_length; pindex++) {
+				
+				var input_parameter = item.input_parameter_list[pindex];
+				//add properties
+				item_innerHtml = document.getElementById("ul_input" + item.item_sys_id).innerHTML;
+				document.getElementById("ul_input" + item.item_sys_id).innerHTML = item_innerHtml + 
+					'<li style="margin-left:15px"><span class="leaf" id="' +
+					input_parameter.sys_id + '"> <a href="' + input_parameter.url + '">' + input_parameter.name + '</a></span></li>';
+				//add next level
+				var prop_innerHtml =  document.getElementById(input_parameter.sys_id).innerHTML;
+				document.getElementById(input_parameter.sys_id).innerHTML = prop_innerHtml + '<ul style="margin-left:15px" id="ul' + input_parameter.sys_id + '"></ul>';
+				//add values
+				var label ="";
+				if(input_parameter.override){
+					label = "Value:";
+				}else{
+					label = "Default value:";
+				}
+				prop_innerHtml = document.getElementById("ul" + input_parameter.sys_id).innerHTML;
+				document.getElementById("ul" + input_parameter.sys_id).innerHTML = prop_innerHtml + '<li style="margin-left:15px"><span class="leaf" id="' +
+					input_parameter.sys_id + input_parameter.value + '">' + label + ' ' + input_parameter.value + '</span></li>';
+			}
+		}
+		
+		var output_param_length = item.output_parameter_list.length;
+		if(output_param_length > 0){
+			//add next level
+			var item_innerHtml = document.getElementById(item.item_sys_id).innerHTML;
+			document.getElementById(item.item_sys_id).innerHTML = item_innerHtml + '<ul style="margin-left:15px" id="ul' + item.item_sys_id + '"></ul>';
+			item_innerHtml = document.getElementById("ul" + item.item_sys_id).innerHTML;
+			document.getElementById("ul" + item.item_sys_id).innerHTML = item_innerHtml + '<li style="margin-left:15px"><span class="leaf" id="output_' + item.item_sys_id + '">Output Parmeters</span></li>';
+			//add next level
+			var item_output_innerHtml = document.getElementById("output_" + item.item_sys_id).innerHTML;
+			document.getElementById("output_" + item.item_sys_id).innerHTML = item_output_innerHtml+'<ul style="margin-left:15px" id="ul_output' + item.item_sys_id + '"></ul>';
+			
+			for (var pindex=0; pindex< output_param_length; pindex++) {
+				
+				var output_parameter = item.output_parameter_list[pindex];
+				//add properties
+				item_innerHtml = document.getElementById("ul_output" + item.item_sys_id).innerHTML;
+				document.getElementById("ul_output" + item.item_sys_id).innerHTML = item_innerHtml + 
+					'<li style="margin-left:15px"><span class="leaf" id="' +
+					output_parameter.sys_id + '"> <a href="' + output_parameter.url + '">' + output_parameter.name + '</a></span></li>';
+				//add next level
+				var prop_innerHtml =  document.getElementById(output_parameter.sys_id).innerHTML;
+				document.getElementById(output_parameter.sys_id).innerHTML = prop_innerHtml + '<ul style="margin-left:15px" id="ul' + output_parameter.sys_id + '"></ul>';
+				//add values
+				var label ="";
+				if(output_parameter.override){
+					label = "Value:";
+				}else{
+					label = "Default value:";
+				}
+				prop_innerHtml = document.getElementById("ul" + output_parameter.sys_id).innerHTML;
+				document.getElementById("ul" + output_parameter.sys_id).innerHTML = prop_innerHtml + '<li style="margin-left:15px"><span class="leaf" id="' +
+					output_parameter.sys_id + output_parameter.value + '">' + label + ' ' + output_parameter.value + '</span></li>';
+			}
+		}
+		
+	}
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_tieoy_dyn_wf_show_parameters.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<div class="treeview" data-role="treeview">
+    <ul id="items">        
+    </ul>
+</div>
+
+</j:jelly>]]></html>
+        <name>show_parameters</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin.xxgodzip</sys_created_by>
+        <sys_created_on>2018-02-05 09:38:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>eb685a1edb88530462f27a0bbf961919</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_name>show_parameters</sys_name>
+        <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
+        <sys_update_name>sys_ui_page_eb685a1edb88530462f27a0bbf961919</sys_update_name>
+        <sys_updated_by>admin.xxgodzip</sys_updated_by>
+        <sys_updated_on>2018-02-06 13:21:46</sys_updated_on>
+    </sys_ui_page>
+</record_update>
