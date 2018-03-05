@@ -4,7 +4,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">831ac0cedb1c9300107172e9bf9619e8</list_id>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,8 +18,68 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin.kelnajir</sys_created_by>
+            <sys_created_on>2017-11-29 09:39:47</sys_created_on>
+            <sys_id>fd71d8a0dbb64b80107172e9bf961943</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.kelnajir</sys_updated_by>
+            <sys_updated_on>2017-11-29 09:39:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>started</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>glide.maint</sys_created_by>
+            <sys_created_on>2008-06-30 19:44:02</sys_created_on>
+            <sys_id>db00d45ec0a801646661b00d085dbd71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>glide.maint</sys_updated_by>
+            <sys_updated_on>2008-06-30 19:44:02</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin.xxnemect</sys_created_by>
+            <sys_created_on>2017-04-03 20:17:00</sys_created_on>
+            <sys_id>08c5a2534fbd3640fba400818110c743</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.xxnemect</sys_updated_by>
+            <sys_updated_on>2017-04-03 20:17:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin.kelnajir</sys_created_by>
+            <sys_created_on>2017-10-10 08:18:19</sys_created_on>
+            <sys_id>0d5f5a94dbf1cb005166f3d31d961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.kelnajir</sys_updated_by>
+            <sys_updated_on>2017-10-10 08:18:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
             <element>active</element>
-            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">831ac0cedb1c9300107172e9bf9619e8</list_id>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,8 +93,83 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin.kelnajir</sys_created_by>
+            <sys_created_on>2017-10-10 08:18:19</sys_created_on>
+            <sys_id>c55f5a94dbf1cb005166f3d31d961976</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.kelnajir</sys_updated_by>
+            <sys_updated_on>2017-10-10 08:18:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin.xxnemect</sys_created_by>
+            <sys_created_on>2017-04-03 20:17:00</sys_created_on>
+            <sys_id>c0c5a2534fbd3640fba400818110c744</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.xxnemect</sys_updated_by>
+            <sys_updated_on>2017-04-03 20:17:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin.kelnajir</sys_created_by>
+            <sys_created_on>2017-11-29 09:39:47</sys_created_on>
+            <sys_id>b971d8a0dbb64b80107172e9bf961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.kelnajir</sys_updated_by>
+            <sys_updated_on>2017-11-29 09:39:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>workflow_version</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>glide.maint</sys_created_by>
+            <sys_created_on>2008-06-30 19:44:02</sys_created_on>
+            <sys_id>db00d461c0a801642f7d5b4ecd3ec55b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>glide.maint</sys_updated_by>
+            <sys_updated_on>2008-06-30 19:44:02</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
             <element>activity_count</element>
-            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">831ac0cedb1c9300107172e9bf9619e8</list_id>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin.xxnemect</sys_created_by>
+            <sys_created_on>2017-04-03 20:17:00</sys_created_on>
+            <sys_id>44c5a2534fbd3640fba400818110c744</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.xxnemect</sys_updated_by>
+            <sys_updated_on>2017-04-03 20:17:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>activity_count</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -48,8 +183,53 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
+            <element>activity_count</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin.kelnajir</sys_created_by>
+            <sys_created_on>2017-11-29 09:39:47</sys_created_on>
+            <sys_id>3d71d8a0dbb64b80107172e9bf961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.kelnajir</sys_updated_by>
+            <sys_updated_on>2017-11-29 09:39:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>id</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>glide.maint</sys_created_by>
+            <sys_created_on>2008-06-30 19:44:02</sys_created_on>
+            <sys_id>db00d463c0a8016405282a301e62a0d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>glide.maint</sys_updated_by>
+            <sys_updated_on>2008-06-30 19:44:02</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>activity_count</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin.kelnajir</sys_created_by>
+            <sys_created_on>2017-10-10 08:18:19</sys_created_on>
+            <sys_id>495f5a94dbf1cb005166f3d31d961976</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.kelnajir</sys_updated_by>
+            <sys_updated_on>2017-10-10 08:18:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
             <element>activity_index</element>
-            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">831ac0cedb1c9300107172e9bf9619e8</list_id>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -63,8 +243,128 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
+            <element>activity_index</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin.kelnajir</sys_created_by>
+            <sys_created_on>2017-10-10 08:18:19</sys_created_on>
+            <sys_id>c95f5a94dbf1cb005166f3d31d961976</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.kelnajir</sys_updated_by>
+            <sys_updated_on>2017-10-10 08:18:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>activity_index</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin.xxnemect</sys_created_by>
+            <sys_created_on>2017-04-03 20:17:00</sys_created_on>
+            <sys_id>c4c5a2534fbd3640fba400818110c744</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.xxnemect</sys_updated_by>
+            <sys_updated_on>2017-04-03 20:17:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>activity_index</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin.kelnajir</sys_created_by>
+            <sys_created_on>2017-11-29 09:39:47</sys_created_on>
+            <sys_id>bd71d8a0dbb64b80107172e9bf961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.kelnajir</sys_updated_by>
+            <sys_updated_on>2017-11-29 09:39:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>glide.maint</sys_created_by>
+            <sys_created_on>2008-06-30 19:44:02</sys_created_on>
+            <sys_id>db00d466c0a801642a7d138e27a6782b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>glide.maint</sys_updated_by>
+            <sys_updated_on>2008-06-30 19:44:02</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>due</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>glide.maint</sys_created_by>
+            <sys_created_on>2008-06-30 19:44:02</sys_created_on>
+            <sys_id>db00d468c0a80164094f634b0149fc22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>glide.maint</sys_updated_by>
+            <sys_updated_on>2008-06-30 19:44:02</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
             <element>after_business_rules</element>
-            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">831ac0cedb1c9300107172e9bf9619e8</list_id>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin.kelnajir</sys_created_by>
+            <sys_created_on>2017-11-29 09:39:47</sys_created_on>
+            <sys_id>3171d8a0dbb64b80107172e9bf961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.kelnajir</sys_updated_by>
+            <sys_updated_on>2017-11-29 09:39:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>after_business_rules</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin.xxnemect</sys_created_by>
+            <sys_created_on>2017-04-03 20:17:00</sys_created_on>
+            <sys_id>48c5a2534fbd3640fba400818110c744</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.xxnemect</sys_updated_by>
+            <sys_updated_on>2017-04-03 20:17:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>after_business_rules</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin.kelnajir</sys_created_by>
+            <sys_created_on>2017-10-10 08:18:19</sys_created_on>
+            <sys_id>4d5f5a94dbf1cb005166f3d31d961976</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.kelnajir</sys_updated_by>
+            <sys_updated_on>2017-10-10 08:18:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>after_business_rules</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -79,7 +379,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>auto_start</element>
-            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">831ac0cedb1c9300107172e9bf9619e8</list_id>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
@@ -93,8 +393,113 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
+            <element>ended</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>glide.maint</sys_created_by>
+            <sys_created_on>2008-06-30 19:44:02</sys_created_on>
+            <sys_id>db00d46bc0a801646c9bd392fe82214c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>glide.maint</sys_updated_by>
+            <sys_updated_on>2008-06-30 19:44:02</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>auto_start</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin.kelnajir</sys_created_by>
+            <sys_created_on>2017-10-10 08:18:19</sys_created_on>
+            <sys_id>cd5f5a94dbf1cb005166f3d31d961976</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.kelnajir</sys_updated_by>
+            <sys_updated_on>2017-10-10 08:18:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>auto_start</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin.xxnemect</sys_created_by>
+            <sys_created_on>2017-04-03 20:17:00</sys_created_on>
+            <sys_id>c8c5a2534fbd3640fba400818110c744</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.xxnemect</sys_updated_by>
+            <sys_updated_on>2017-04-03 20:17:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>auto_start</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin.kelnajir</sys_created_by>
+            <sys_created_on>2017-11-29 09:39:47</sys_created_on>
+            <sys_id>b171d8a0dbb64b80107172e9bf961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.kelnajir</sys_updated_by>
+            <sys_updated_on>2017-11-29 09:39:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
             <element>column_renderer</element>
-            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">831ac0cedb1c9300107172e9bf9619e8</list_id>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin.kelnajir</sys_created_by>
+            <sys_created_on>2017-10-10 08:18:19</sys_created_on>
+            <sys_id>415f5a94dbf1cb005166f3d31d961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.kelnajir</sys_updated_by>
+            <sys_updated_on>2017-10-10 08:18:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>column_renderer</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin.kelnajir</sys_created_by>
+            <sys_created_on>2017-11-29 09:39:47</sys_created_on>
+            <sys_id>3571d8a0dbb64b80107172e9bf961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.kelnajir</sys_updated_by>
+            <sys_updated_on>2017-11-29 09:39:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>column_renderer</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin.xxnemect</sys_created_by>
+            <sys_created_on>2017-04-03 20:17:00</sys_created_on>
+            <sys_id>4cc5a2534fbd3640fba400818110c744</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.xxnemect</sys_updated_by>
+            <sys_updated_on>2017-04-03 20:17:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>column_renderer</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
@@ -109,7 +514,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>cumulated_avg_ert</element>
-            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">831ac0cedb1c9300107172e9bf9619e8</list_id>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
@@ -123,8 +528,53 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
+            <element>cumulated_avg_ert</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin.kelnajir</sys_created_by>
+            <sys_created_on>2017-11-29 09:39:47</sys_created_on>
+            <sys_id>b571d8a0dbb64b80107172e9bf961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.kelnajir</sys_updated_by>
+            <sys_updated_on>2017-11-29 09:39:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>cumulated_avg_ert</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin.kelnajir</sys_created_by>
+            <sys_created_on>2017-10-10 08:18:19</sys_created_on>
+            <sys_id>c15f5a94dbf1cb005166f3d31d961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.kelnajir</sys_updated_by>
+            <sys_updated_on>2017-10-10 08:18:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>cumulated_avg_ert</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin.xxnemect</sys_created_by>
+            <sys_created_on>2017-04-03 20:17:00</sys_created_on>
+            <sys_id>ccc5a2534fbd3640fba400818110c744</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.xxnemect</sys_updated_by>
+            <sys_updated_on>2017-04-03 20:17:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
             <element>due</element>
-            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">831ac0cedb1c9300107172e9bf9619e8</list_id>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
@@ -138,8 +588,83 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
+            <element>due</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin.kelnajir</sys_created_by>
+            <sys_created_on>2017-10-10 08:18:19</sys_created_on>
+            <sys_id>455f5a94dbf1cb005166f3d31d961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.kelnajir</sys_updated_by>
+            <sys_updated_on>2017-10-10 08:18:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>due</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin.kelnajir</sys_created_by>
+            <sys_created_on>2017-11-29 09:39:47</sys_created_on>
+            <sys_id>3971d8a0dbb64b80107172e9bf961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.kelnajir</sys_updated_by>
+            <sys_updated_on>2017-11-29 09:39:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>due</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin.xxnemect</sys_created_by>
+            <sys_created_on>2017-04-03 20:17:00</sys_created_on>
+            <sys_id>40c5a2534fbd3640fba400818110c745</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.xxnemect</sys_updated_by>
+            <sys_updated_on>2017-04-03 20:17:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
             <element>ended</element>
-            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">831ac0cedb1c9300107172e9bf9619e8</list_id>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin.xxnemect</sys_created_by>
+            <sys_created_on>2017-04-03 20:17:00</sys_created_on>
+            <sys_id>c0c5a2534fbd3640fba400818110c745</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.xxnemect</sys_updated_by>
+            <sys_updated_on>2017-04-03 20:17:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ended</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin.kelnajir</sys_created_by>
+            <sys_created_on>2017-11-29 09:39:47</sys_created_on>
+            <sys_id>b971d8a0dbb64b80107172e9bf961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.kelnajir</sys_updated_by>
+            <sys_updated_on>2017-11-29 09:39:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ended</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>9</position>
@@ -150,6 +675,21 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin.capppmar</sys_updated_by>
             <sys_updated_on>2018-02-16 14:32:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ended</element>
+            <list_id display_value="wf_context" element="NULL" name="wf_context" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">db00d45bc0a801647c766b5f15babce5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin.kelnajir</sys_created_by>
+            <sys_created_on>2017-10-10 08:18:19</sys_created_on>
+            <sys_id>c55f5a94dbf1cb005166f3d31d961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.kelnajir</sys_updated_by>
+            <sys_updated_on>2017-10-10 08:18:19</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -169,15 +709,15 @@
             <sys_domain_path>!!!/</sys_domain_path>
             <sys_id>5b160424db0cdb80107172e9bf9619ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name/>
-            <sys_package/>
+            <sys_name>wf_context</sys_name>
+            <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
-            <sys_update_name/>
+            <sys_update_name>sys_ui_list_wf_context_null_774190f01f1310005a3637b8ec8b70ef</sys_update_name>
             <sys_updated_by>admin.xxgodzip</sys_updated_by>
             <sys_updated_on>2018-01-30 12:08:40</sys_updated_on>
-            <sys_user display_value="Gozdzik Admin Przemyslaw ">1ecb28e5db58434062f27a0bbf9619da</sys_user>
+            <sys_user display_value="Godzik Admin Przemyslaw ">1ecb28e5db58434062f27a0bbf9619da</sys_user>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>

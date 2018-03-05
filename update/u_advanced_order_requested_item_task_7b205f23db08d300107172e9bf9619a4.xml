@@ -26,7 +26,7 @@
         <u_item/>
         <u_orchestration_workflow display_value="Dynamic workflow - Master">44758ac9db4857c062f27a0bbf9619de</u_orchestration_workflow>
         <u_order>200</u_order>
-        <u_requested_item display_value="RITM0000094588">37205f23db08d300107172e9bf96196e</u_requested_item>
+        <u_requested_item display_value="">37205f23db08d300107172e9bf96196e</u_requested_item>
         <u_ritm_created/>
         <u_ritm_created_tmp/>
         <u_schedule/>
@@ -34,7 +34,7 @@
         <u_short_description>Order Enterprise Voice service</u_short_description>
         <u_skills/>
         <u_standard_change_template/>
-        <u_task_created display_value="TASK0000105051">b4309f23db08d300107172e9bf961972</u_task_created>
+        <u_task_created display_value="">b4309f23db08d300107172e9bf961972</u_task_created>
         <u_task_type>catalog_task</u_task_type>
         <u_template/>
         <u_type>direct</u_type>

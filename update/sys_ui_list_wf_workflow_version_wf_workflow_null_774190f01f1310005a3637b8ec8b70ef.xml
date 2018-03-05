@@ -19,15 +19,15 @@
             <sys_domain_path>!!!/</sys_domain_path>
             <sys_id>fc2201ebdbd85f00107172e9bf961993</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name/>
-            <sys_package/>
+            <sys_name>wf_workflow_version</sys_name>
+            <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
-            <sys_update_name/>
+            <sys_update_name>sys_ui_list_wf_workflow_version_wf_workflow_null_774190f01f1310005a3637b8ec8b70ef</sys_update_name>
             <sys_updated_by>admin.xxgodzip</sys_updated_by>
             <sys_updated_on>2018-02-21 10:28:23</sys_updated_on>
-            <sys_user display_value="Gozdzik Admin Przemyslaw ">1ecb28e5db58434062f27a0bbf9619da</sys_user>
+            <sys_user display_value="Godzik Admin Przemyslaw ">1ecb28e5db58434062f27a0bbf9619da</sys_user>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>

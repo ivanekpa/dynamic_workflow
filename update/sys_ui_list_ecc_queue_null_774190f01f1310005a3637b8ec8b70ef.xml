@@ -4,7 +4,37 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4c0de092db624300107172e9bf96190d</list_id>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin.dvoroluk</sys_created_by>
+            <sys_created_on>2016-12-13 12:30:36</sys_created_on>
+            <sys_id>e582d9274f63a20020450b318110c723</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.dvoroluk</sys_updated_by>
+            <sys_updated_on>2016-12-13 12:30:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-03-25 05:41:48</sys_created_on>
+            <sys_id>0c27415c4f31320020450b318110c7c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-03-25 05:41:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,8 +48,53 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin.xxblahup</sys_created_by>
+            <sys_created_on>2017-10-20 13:43:45</sys_created_on>
+            <sys_id>29b987e7dbf1cfc8bbcedca0ce96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.xxblahup</sys_updated_by>
+            <sys_updated_on>2017-10-20 13:43:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
             <element>agent</element>
-            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4c0de092db624300107172e9bf96190d</list_id>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin.dvoroluk</sys_created_by>
+            <sys_created_on>2016-12-13 12:30:36</sys_created_on>
+            <sys_id>6982d9274f63a20020450b318110c723</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.dvoroluk</sys_updated_by>
+            <sys_updated_on>2016-12-13 12:30:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>agent</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-03-25 05:41:48</sys_created_on>
+            <sys_id>8c27415c4f31320020450b318110c7c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-03-25 05:41:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>agent</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,8 +108,23 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
+            <element>agent</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin.xxblahup</sys_created_by>
+            <sys_created_on>2017-10-20 13:43:45</sys_created_on>
+            <sys_id>a1b987e7dbf1cfc8bbcedca0ce96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.xxblahup</sys_updated_by>
+            <sys_updated_on>2017-10-20 13:43:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
             <element>agent_correlator</element>
-            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4c0de092db624300107172e9bf96190d</list_id>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -48,8 +138,98 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
+            <element>agent_correlator</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin.xxblahup</sys_created_by>
+            <sys_created_on>2017-10-20 13:43:45</sys_created_on>
+            <sys_id>25b987e7dbf1cfc8bbcedca0ce96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.xxblahup</sys_updated_by>
+            <sys_updated_on>2017-10-20 13:43:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>agent_correlator</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin.dvoroluk</sys_created_by>
+            <sys_created_on>2016-12-13 12:30:36</sys_created_on>
+            <sys_id>e982d9274f63a20020450b318110c723</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.dvoroluk</sys_updated_by>
+            <sys_updated_on>2016-12-13 12:30:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>topic</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-03-25 05:41:48</sys_created_on>
+            <sys_id>0027415c4f31320020450b318110c7c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-03-25 05:41:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
             <element>error_string</element>
-            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4c0de092db624300107172e9bf96190d</list_id>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin.xxblahup</sys_created_by>
+            <sys_created_on>2017-10-20 13:43:45</sys_created_on>
+            <sys_id>a5b987e7dbf1cfc8bbcedca0ce96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.xxblahup</sys_updated_by>
+            <sys_updated_on>2017-10-20 13:43:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-03-25 05:41:48</sys_created_on>
+            <sys_id>8027415c4f31320020450b318110c7c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-03-25 05:41:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>error_string</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin.dvoroluk</sys_created_by>
+            <sys_created_on>2016-12-13 12:30:36</sys_created_on>
+            <sys_id>6d82d9274f63a20020450b318110c723</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.dvoroluk</sys_updated_by>
+            <sys_updated_on>2016-12-13 12:30:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>error_string</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -64,7 +244,37 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>from_host</element>
-            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4c0de092db624300107172e9bf96190d</list_id>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin.dvoroluk</sys_created_by>
+            <sys_created_on>2016-12-13 12:30:36</sys_created_on>
+            <sys_id>ed82d9274f63a20020450b318110c723</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.dvoroluk</sys_updated_by>
+            <sys_updated_on>2016-12-13 12:30:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>source</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-03-25 05:41:48</sys_created_on>
+            <sys_id>0427415c4f31320020450b318110c7c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-03-25 05:41:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>from_host</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -78,8 +288,38 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
+            <element>from_host</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin.xxblahup</sys_created_by>
+            <sys_created_on>2017-10-20 13:43:45</sys_created_on>
+            <sys_id>29b987e7dbf1cfc8bbcedca0ce96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.xxblahup</sys_updated_by>
+            <sys_updated_on>2017-10-20 13:43:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
             <element>from_sys_id</element>
-            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4c0de092db624300107172e9bf96190d</list_id>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin.xxblahup</sys_created_by>
+            <sys_created_on>2017-10-20 13:43:45</sys_created_on>
+            <sys_id>a9b987e7dbf1cfc8bbcedca0ce96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.xxblahup</sys_updated_by>
+            <sys_updated_on>2017-10-20 13:43:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>from_sys_id</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
@@ -93,8 +333,83 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
+            <element>from_sys_id</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin.dvoroluk</sys_created_by>
+            <sys_created_on>2016-12-13 12:30:36</sys_created_on>
+            <sys_id>6182d9274f63a20020450b318110c724</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.dvoroluk</sys_updated_by>
+            <sys_updated_on>2016-12-13 12:30:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>queue</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-03-25 05:41:48</sys_created_on>
+            <sys_id>8427415c4f31320020450b318110c7c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-03-25 05:41:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-03-25 05:41:48</sys_created_on>
+            <sys_id>0827415c4f31320020450b318110c7c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-03-25 05:41:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
             <element>payload</element>
-            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4c0de092db624300107172e9bf96190d</list_id>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin.dvoroluk</sys_created_by>
+            <sys_created_on>2016-12-13 12:30:36</sys_created_on>
+            <sys_id>e182d9274f63a20020450b318110c724</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.dvoroluk</sys_updated_by>
+            <sys_updated_on>2016-12-13 12:30:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>payload</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin.xxblahup</sys_created_by>
+            <sys_created_on>2017-10-20 13:43:45</sys_created_on>
+            <sys_id>2db987e7dbf1cfc8bbcedca0ce96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.xxblahup</sys_updated_by>
+            <sys_updated_on>2017-10-20 13:43:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>payload</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
@@ -108,8 +423,38 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
+            <element>processed</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-03-25 05:41:48</sys_created_on>
+            <sys_id>8827415c4f31320020450b318110c7c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-03-25 05:41:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
             <element>priority</element>
-            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4c0de092db624300107172e9bf96190d</list_id>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin.xxblahup</sys_created_by>
+            <sys_created_on>2017-10-20 13:43:45</sys_created_on>
+            <sys_id>adb987e7dbf1cfc8bbcedca0ce96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.xxblahup</sys_updated_by>
+            <sys_updated_on>2017-10-20 13:43:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>priority</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
@@ -123,8 +468,23 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
+            <element>priority</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin.dvoroluk</sys_created_by>
+            <sys_created_on>2016-12-13 12:30:36</sys_created_on>
+            <sys_id>6582d9274f63a20020450b318110c724</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.dvoroluk</sys_updated_by>
+            <sys_updated_on>2016-12-13 12:30:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
             <element>processed</element>
-            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4c0de092db624300107172e9bf96190d</list_id>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
@@ -138,8 +498,68 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
+            <element>processed</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin.xxblahup</sys_created_by>
+            <sys_created_on>2017-10-20 13:43:45</sys_created_on>
+            <sys_id>21b987e7dbf1cfc8bbcedca0ce961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.xxblahup</sys_updated_by>
+            <sys_updated_on>2017-10-20 13:43:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>processed</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin.dvoroluk</sys_created_by>
+            <sys_created_on>2016-12-13 12:30:36</sys_created_on>
+            <sys_id>e582d9274f63a20020450b318110c724</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.dvoroluk</sys_updated_by>
+            <sys_updated_on>2016-12-13 12:30:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
             <element>queue</element>
-            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4c0de092db624300107172e9bf96190d</list_id>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin.dvoroluk</sys_created_by>
+            <sys_created_on>2016-12-13 12:30:36</sys_created_on>
+            <sys_id>6982d9274f63a20020450b318110c724</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.dvoroluk</sys_updated_by>
+            <sys_updated_on>2016-12-13 12:30:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>queue</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin.xxblahup</sys_created_by>
+            <sys_created_on>2017-10-20 13:43:45</sys_created_on>
+            <sys_id>a1b987e7dbf1cfc8bbcedca0ce961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.xxblahup</sys_updated_by>
+            <sys_updated_on>2017-10-20 13:43:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>queue</element>
+            <list_id display_value="ecc_queue" element="NULL" name="ecc_queue" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a9b987e7dbf1cfc8bbcedca0ce96195d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>9</position>
@@ -169,12 +589,12 @@
             <sys_domain_path>!!!/</sys_domain_path>
             <sys_id>e2c548bedb88dfc0107172e9bf9619e3</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name/>
-            <sys_package/>
+            <sys_name>ecc_queue</sys_name>
+            <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
-            <sys_update_name/>
+            <sys_update_name>sys_ui_list_ecc_queue_null_774190f01f1310005a3637b8ec8b70ef</sys_update_name>
             <sys_updated_by>admin.xxernyeo</sys_updated_by>
             <sys_updated_on>2018-02-06 11:53:36</sys_updated_on>
             <sys_user display_value="Ernyei Admin Ondrej">3268e422ffd83640356be22bd4c4add5</sys_user>

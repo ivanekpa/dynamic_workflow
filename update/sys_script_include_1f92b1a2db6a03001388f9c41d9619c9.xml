@@ -224,23 +224,25 @@ DynamicWorkflowUtil.prototype = {
 		
 		return addEvent;
 	},
-	/*
-	** find the range of order for conditioned items
-	** returns object {
-						start : ${first order parameter},
-						end : ${second order parameter}
-					  }
+	
+	/**
+	* getIfConditionConfigurationSet - gets Dynamic Workflow Items which are IF conditions (have not assigned any workflow).
+	* 
+	* @param {String} conf_sys_id - The sys_id of Dynamic Workflow Configuration.
+	* 
+	* returns {Array} - each item of the array is an object with parameters:
+						{
+							order : ${ order value of Dynamic Workflow Item },
+							item_id : ${ sys_id value of Dynamic Workflow Item }
+						}
 	*/
-	getExcludedOrderRange : function(conf_sys_id,conf_execution_id){
+	
+	getIfConditionConfigurationSet : function(conf_sys_id){
 		var m2m = new GlideRecord('x_tieoy_dyn_wf_m2m_item2conf');
 		m2m.addQuery('dynamic_workflow_configuration', conf_sys_id);
 		m2m.addQuery('dynamic_workflow_item.workflow', '');
 		m2m.orderBy('order');
 		m2m.query();
-
-		if (m2m.hasNext() == false) {
-			return false;
-		}
 
 		//Create ordered array with item names and vars
 		var arr_items = [];
@@ -250,12 +252,145 @@ DynamicWorkflowUtil.prototype = {
 		    arr_items.push({
 		    	order     : m2m.order+"",
 		    	item_id	  : m2m.dynamic_workflow_item+""
-		    });
-						
+		    });		
 		}
 		
-		return this._getExcludedOrderRange(arr_items);
+		return arr_items;
+	},
 
+	/**
+	* isExcludedItem - checks whether tested Dynamic Workflow Item is excluded or not.
+	*
+	* @param {Array} condition_set - The list of Dynamic Workflow Items which are IF conditions (have not assigned any workflow). They're the same items which are get from getIfConditionConfigurationSet function.
+	* @param {String} configuration_item_order - The order of tested Dynamic Workflow Item.
+	* @param {String} configuration_sys_id - The sys_id of Dynamic Workflow Configuration.
+	* 
+	* returns {Boolean} - If tested Dynamic Workflow Item is excluded returns true if not returns false.
+	*/
+	
+	isExcludedItem : function(condition_set, configuration_item_order, configuration_sys_id){
+		
+		//Initial values
+		var excluded_range = {
+			start : 0,
+			end : 0
+		};
+		var evaluator = new GlideScopedEvaluator();
+		
+		//Load MAPPING var from scratchpad
+		var MAPPING = this._wf.scratchpad.MAPPING;
+
+		for(var index = 0; index < condition_set.length; index++){
+
+			var conf = condition_set[index];
+
+			if(configuration_item_order >= conf.order){
+
+				var if_statement = {};
+				var required = false; //Initial value of 'required' flag. It's getting true if 'else' part exists and it's validated, otherwise it's false.
+
+				// Find 'Input' type parameters for the workflow item + fill in values
+				// Getting default parameters of Dynamic Workflow Item.
+				var defaultParameters = new GlideRecord("x_tieoy_dyn_wf_param");
+				defaultParameters.addQuery("dynamic_workflow_item", conf.item_id);
+				defaultParameters.addQuery('type', 'Input');
+				defaultParameters.query();
+
+				while(defaultParameters.next()){
+
+					var variable_name = defaultParameters.variable_name.toString();
+					
+					// Getting parameters of Dynamic Workflow Configuration.
+					var parameters = new GlideRecord('x_tieoy_dyn_wf_param_conf');
+					parameters.addQuery('dynamic_workflow_configuration', configuration_sys_id); // configuration_sys_id - sys_id of dynamic_workflow_configuration
+					parameters.addQuery('dynamic_workflow_parameter', defaultParameters.sys_id);
+					parameters.query();
+
+					// Checking whether the (Dynamic Workflow Item) default parameters are overwritten by the (Dynamic Workflow Configuration) parameters.
+					// If they are overwritten then use the (Dynamic Workflow Configuration) parameter otherwise are used default parameters.
+					if (parameters.next()) {
+
+						if(variable_name == 'condition'){
+							if_statement['condition'] = evaluator.evaluateScript(parameters, 'value', MAPPING);
+						}
+
+						// Validating 'else' part
+						if(variable_name == 'else'){
+							if_statement['else'] = parameters.value + '';
+
+							if(parameters.required.toString() == 'true' && if_statement['else'] != ''){
+								required = true;
+							}
+						}
+
+						if(variable_name == 'end'){
+							if_statement['end'] = parameters.value + '';
+						}
+
+					} else {
+
+						if(variable_name == 'condition'){
+							if_statement['condition'] = evaluator.evaluateScript(defaultParameters, 'default_value', MAPPING);
+						}
+
+						// Validating 'else' part
+						if(variable_name == 'else'){
+							if_statement['else'] = defaultParameters.default_value + '';
+
+							if(defaultParameters.required.toString() == 'true' && if_statement['else'] != ''){
+								required = true;
+							}
+						}
+
+						if(variable_name == 'end'){
+							if_statement['end'] = defaultParameters.default_value + '';
+						}
+					}
+				}
+
+				// Setting appropriate excluded range and checking that tested item is excluded.
+				// Two cases:
+				// 1. 'else' part exists ('required' is true)
+				// 2. There is no 'else' part ('required' is false)
+				
+				if(required){
+
+					if(if_statement['condition']){
+						excluded_range.start = Number(if_statement['else']) + 1;
+						excluded_range.end = if_statement['end'];
+					} else {
+						excluded_range.start = conf.order;
+						excluded_range.end = if_statement['else'];
+					}
+
+					if(configuration_item_order >= excluded_range.start && configuration_item_order <= excluded_range.end){
+						return true;
+					}
+
+				} else {
+
+					excluded_range.start = conf.order;
+					excluded_range.end = if_statement['end'];
+
+					if(if_statement['condition']){
+
+						if(configuration_item_order > excluded_range.end){
+							return true;
+						}
+
+					} else {
+
+						if(configuration_item_order >= excluded_range.start && configuration_item_order <= excluded_range.end){
+							return true;
+						}
+
+					}
+
+				}
+			}
+		}
+
+		return false;
 	},
 	
 	_createConfigurationExecution: function(conf_id) {
@@ -307,31 +442,6 @@ DynamicWorkflowUtil.prototype = {
 		}		
 		return true;
 	},
-	
-	_getExcludedOrderRange : function(configuration_set){
-		var excluded_range = {
-			start : 0,
-			end : 0
-		};
-		var evaluator = new GlideScopedEvaluator();
-		//Load MAPPING var from scratchpad
-		var MAPPING = this._wf.scratchpad.MAPPING;
-
-		for(var index = 0; index < configuration_set.length; index++){
-			var conf = configuration_set[index];
-			var gr = new GlideRecord("x_tieoy_dyn_wf_param");
-			gr.addQuery("dynamic_workflow_item", conf.item_id);
-			gr.query();
-			while(gr.next()){
-				if(evaluator.evaluateScript(gr, 'default_value', MAPPING)){
-					var range = gr.variable_name.toString().split(',').map(Number); 
-					excluded_range.start = range[0];
-					excluded_range.end = range[1];
-				}
-			}
-		}	
-		return excluded_range;
-	},
 
 	type: 'DynamicWorkflowUtil'
 };]]></script>
@@ -340,7 +450,7 @@ DynamicWorkflowUtil.prototype = {
         <sys_created_on>2017-11-23 11:36:49</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1f92b1a2db6a03001388f9c41d9619c9</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_name>DynamicWorkflowUtil</sys_name>
         <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
         <sys_policy>read</sys_policy>
@@ -348,6 +458,6 @@ DynamicWorkflowUtil.prototype = {
         <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
         <sys_update_name>sys_script_include_1f92b1a2db6a03001388f9c41d9619c9</sys_update_name>
         <sys_updated_by>admin.xxgodzip</sys_updated_by>
-        <sys_updated_on>2018-02-20 09:31:00</sys_updated_on>
+        <sys_updated_on>2018-03-05 13:58:25</sys_updated_on>
     </sys_script_include>
 </record_update>
