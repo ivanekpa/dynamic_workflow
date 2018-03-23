@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="676eb552dbbc1fc062f27a0bbf9619bd" sys_domain="global" table="x_tieoy_dyn_wf_m2m_item2conf" version="3" view="dw">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin.xxgodzip</sys_created_by>
+            <sys_created_on>2018-03-14 14:10:48</sys_created_on>
+            <sys_id>a76eb552dbbc1fc062f27a0bbf9619c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tieoy_dyn_wf_m2m_item2conf" sys_domain="global" view="b0596cdedb3cdbc062f27a0bbf96194b">676eb552dbbc1fc062f27a0bbf9619bd</sys_ui_section>
+            <sys_updated_by>admin.xxgodzip</sys_updated_by>
+            <sys_updated_on>2018-03-14 14:10:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>order</element>
+            <position>1</position>
+            <sys_created_by>admin.xxgodzip</sys_created_by>
+            <sys_created_on>2018-03-14 14:10:48</sys_created_on>
+            <sys_id>636eb552dbbc1fc062f27a0bbf9619c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tieoy_dyn_wf_m2m_item2conf" sys_domain="global" view="b0596cdedb3cdbc062f27a0bbf96194b">676eb552dbbc1fc062f27a0bbf9619bd</sys_ui_section>
+            <sys_updated_by>admin.xxgodzip</sys_updated_by>
+            <sys_updated_on>2018-03-14 14:10:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin.xxgodzip</sys_created_by>
+            <sys_created_on>2018-03-14 14:10:48</sys_created_on>
+            <sys_id>e36eb552dbbc1fc062f27a0bbf9619c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tieoy_dyn_wf_m2m_item2conf" sys_domain="global" view="b0596cdedb3cdbc062f27a0bbf96194b">676eb552dbbc1fc062f27a0bbf9619bd</sys_ui_section>
+            <sys_updated_by>admin.xxgodzip</sys_updated_by>
+            <sys_updated_on>2018-03-14 14:10:48</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dynamic_workflow_configuration</element>
+            <position>3</position>
+            <sys_created_by>admin.xxgodzip</sys_created_by>
+            <sys_created_on>2018-03-14 14:10:48</sys_created_on>
+            <sys_id>676eb552dbbc1fc062f27a0bbf9619c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tieoy_dyn_wf_m2m_item2conf" sys_domain="global" view="b0596cdedb3cdbc062f27a0bbf96194b">676eb552dbbc1fc062f27a0bbf9619bd</sys_ui_section>
+            <sys_updated_by>admin.xxgodzip</sys_updated_by>
+            <sys_updated_on>2018-03-14 14:10:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dynamic_workflow_item</element>
+            <position>4</position>
+            <sys_created_by>admin.xxgodzip</sys_created_by>
+            <sys_created_on>2018-03-14 14:10:48</sys_created_on>
+            <sys_id>e76eb552dbbc1fc062f27a0bbf9619c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tieoy_dyn_wf_m2m_item2conf" sys_domain="global" view="b0596cdedb3cdbc062f27a0bbf96194b">676eb552dbbc1fc062f27a0bbf9619bd</sys_ui_section>
+            <sys_updated_by>admin.xxgodzip</sys_updated_by>
+            <sys_updated_on>2018-03-14 14:10:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_tieoy_dyn_wf_m2m_item2conf</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin.xxgodzip</sys_created_by>
+            <sys_created_on>2018-03-14 14:10:48</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>676eb552dbbc1fc062f27a0bbf9619bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_tieoy_dyn_wf_m2m_item2conf</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
+            <sys_update_name>sys_ui_section_676eb552dbbc1fc062f27a0bbf9619bd</sys_update_name>
+            <sys_updated_by>admin.xxgodzip</sys_updated_by>
+            <sys_updated_on>2018-03-14 14:10:48</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="dw" name="dw">b0596cdedb3cdbc062f27a0bbf96194b</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

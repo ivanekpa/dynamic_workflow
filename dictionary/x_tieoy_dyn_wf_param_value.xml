@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Dynamic workflow parameter value" max_length="40" name="x_tieoy_dyn_wf_param_value" type="collection">
-        <element label="Dynamic workflow execution" max_length="32" name="dynamic_workflow_execution" reference="x_tieoy_dyn_wf_exec" type="reference"/>
+        <element active="false" label="Dynamic workflow execution" max_length="32" name="dynamic_workflow_execution" reference="x_tieoy_dyn_wf_exec" type="reference"/>
+        <element label="Dynamic workflow m2m item2exec" max_length="32" name="dynamic_workflow_m2m_item2exec" reference="x_tieoy_dyn_wf_m2m_item2exec" type="reference"/>
         <element label="Dynamic workflow parameter" max_length="32" name="dynamic_workflow_parameter" reference="x_tieoy_dyn_wf_param" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Value" max_length="2048" name="value" type="string"/>
@@ -9,6 +10,9 @@
             <element name="dynamic_workflow_parameter"/>
         </index>
         <index name="index2">
+            <element name="dynamic_workflow_m2m_item2exec"/>
+        </index>
+        <index name="index3">
             <element name="dynamic_workflow_execution"/>
         </index>
     </element>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_tieoy_dyn_wf_conf</basic_apply_to>
+        <basic_query_from>x_tieoy_dyn_wf_param_conf</basic_query_from>
+        <insert_callback/>
+        <name>Dynamic workflow parameter configuration</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+	current.addQuery('dynamic_workflow_m2m_item2conf.dynamic_workflow_configuration', parent.sys_id);
+	
+})(current, parent);]]></query_with>
+        <reference_field>dynamic_workflow_configuration</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin.xxgodzip</sys_created_by>
+        <sys_created_on>2018-03-08 09:27:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a8ebb5d8db7c17c0107172e9bf9619c6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Dynamic workflow parameter configuration</sys_name>
+        <sys_package display_value="Dynamic workflow" source="x_tieoy_dyn_wf">e473a9eedbe603001388f9c41d961988</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Dynamic workflow">e473a9eedbe603001388f9c41d961988</sys_scope>
+        <sys_update_name>sys_relationship_a8ebb5d8db7c17c0107172e9bf9619c6</sys_update_name>
+        <sys_updated_by>admin.xxgodzip</sys_updated_by>
+        <sys_updated_on>2018-03-08 09:30:15</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=a8ebb5d8db7c17c0107172e9bf9619c6"/>
+</record_update>

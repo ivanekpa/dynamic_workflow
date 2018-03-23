@@ -14,7 +14,7 @@
         <label>Dynamic workflow m2m item2exec</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_tieoy_dyn_wf_m2m_item2exec</name>
-        <number_ref display_value="DYNWFITEM2CONF">12ad212edb2a03001388f9c41d96193d</number_ref>
+        <number_ref display_value="DYNWFITEM2EXEC">12ad212edb2a03001388f9c41d96193d</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <super_class/>

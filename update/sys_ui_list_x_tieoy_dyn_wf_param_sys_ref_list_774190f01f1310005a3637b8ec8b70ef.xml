@@ -4,17 +4,47 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_tieoy_dyn_wf_param" element="NULL" name="x_tieoy_dyn_wf_param" parent="NULL" relationship="NULL" sys_domain="global" view="8a1a14123700120015cfd3e853990e30">261c82dfdb445300107172e9bf9619da</list_id>
+            <list_id display_value="x_tieoy_dyn_wf_param" element="NULL" name="x_tieoy_dyn_wf_param" parent="NULL" relationship="NULL" sys_domain="global" view="8a1a14123700120015cfd3e853990e30">17c9efb9db781bc062f27a0bbf96194f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin.capppmar</sys_created_by>
-            <sys_created_on>2018-02-08 10:57:22</sys_created_on>
-            <sys_id>e21c82dfdb445300107172e9bf9619db</sys_id>
+            <sys_created_on>2018-03-13 08:42:57</sys_created_on>
+            <sys_id>93c9efb9db781bc062f27a0bbf961950</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin.capppmar</sys_updated_by>
-            <sys_updated_on>2018-02-08 10:57:22</sys_updated_on>
+            <sys_updated_on>2018-03-13 08:42:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>dynamic_workflow_item</element>
+            <list_id display_value="x_tieoy_dyn_wf_param" element="NULL" name="x_tieoy_dyn_wf_param" parent="NULL" relationship="NULL" sys_domain="global" view="8a1a14123700120015cfd3e853990e30">17c9efb9db781bc062f27a0bbf96194f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin.capppmar</sys_created_by>
+            <sys_created_on>2018-03-13 08:42:57</sys_created_on>
+            <sys_id>1fc9efb9db781bc062f27a0bbf961950</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.capppmar</sys_updated_by>
+            <sys_updated_on>2018-03-13 08:42:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>type</element>
+            <list_id display_value="x_tieoy_dyn_wf_param" element="NULL" name="x_tieoy_dyn_wf_param" parent="NULL" relationship="NULL" sys_domain="global" view="8a1a14123700120015cfd3e853990e30">17c9efb9db781bc062f27a0bbf96194f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin.capppmar</sys_created_by>
+            <sys_created_on>2018-03-13 08:42:57</sys_created_on>
+            <sys_id>9fc9efb9db781bc062f27a0bbf961950</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.capppmar</sys_updated_by>
+            <sys_updated_on>2018-03-13 08:42:57</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>

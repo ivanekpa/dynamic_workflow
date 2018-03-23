@@ -15,20 +15,6 @@
             <sys_updated_by>system</sys_updated_by>
             <sys_updated_on>2018-02-27 10:40:48</sys_updated_on>
         </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>1</position>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2018-02-27 10:40:48</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>598e77d1dbec930062f27a0bbf9619bc</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_tieoy_dyn_wf_m2m_item2conf" name="x_tieoy_dyn_wf_m2m_item2conf" sys_domain="global" view="Default view">558e77d1dbec930062f27a0bbf9619bb</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_tieoy_dyn_wf_m2m_item2conf" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">0939cabbdbe24fc043269414db961977</sys_ui_section>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2018-02-27 10:40:48</sys_updated_on>
-        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_tieoy_dyn_wf_m2m_item2conf</name>
             <roles/>

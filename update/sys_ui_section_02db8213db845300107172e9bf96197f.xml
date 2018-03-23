@@ -2,102 +2,74 @@
 <record_update>
     <sys_ui_section caption="" section_id="02db8213db845300107172e9bf96197f" sys_domain="global" table="x_tieoy_dyn_wf_m2m_item2conf" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
-            <position>0</position>
-            <sys_created_by>admin.capppmar</sys_created_by>
-            <sys_created_on>2018-02-08 10:56:15</sys_created_on>
-            <sys_id>92db8213db845300107172e9bf961986</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_tieoy_dyn_wf_m2m_item2conf" sys_domain="global" view="Default view">02db8213db845300107172e9bf96197f</sys_ui_section>
-            <sys_updated_by>admin.capppmar</sys_updated_by>
-            <sys_updated_on>2018-02-08 10:56:15</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
-            <position>1</position>
-            <sys_created_by>admin.capppmar</sys_created_by>
-            <sys_created_on>2018-02-08 10:56:15</sys_created_on>
-            <sys_id>9edb8213db845300107172e9bf961986</sys_id>
+            <position>0</position>
+            <sys_created_by>admin.xxgodzip</sys_created_by>
+            <sys_created_on>2018-03-14 07:52:25</sys_created_on>
+            <sys_id>bcd7e4dadb3cdbc062f27a0bbf9619ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_tieoy_dyn_wf_m2m_item2conf" sys_domain="global" view="Default view">02db8213db845300107172e9bf96197f</sys_ui_section>
-            <sys_updated_by>admin.capppmar</sys_updated_by>
-            <sys_updated_on>2018-02-08 10:56:15</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>dynamic_workflow_item</element>
-            <position>2</position>
-            <sys_created_by>admin.capppmar</sys_created_by>
-            <sys_created_on>2018-02-08 10:56:15</sys_created_on>
-            <sys_id>12db8213db845300107172e9bf961987</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_tieoy_dyn_wf_m2m_item2conf" sys_domain="global" view="Default view">02db8213db845300107172e9bf96197f</sys_ui_section>
-            <sys_updated_by>admin.capppmar</sys_updated_by>
-            <sys_updated_on>2018-02-08 10:56:15</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>3</position>
-            <sys_created_by>admin.capppmar</sys_created_by>
-            <sys_created_on>2018-02-08 10:56:15</sys_created_on>
-            <sys_id>5adb8213db845300107172e9bf961993</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_tieoy_dyn_wf_m2m_item2conf" sys_domain="global" view="Default view">02db8213db845300107172e9bf96197f</sys_ui_section>
-            <sys_updated_by>admin.capppmar</sys_updated_by>
-            <sys_updated_on>2018-02-08 10:56:15</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>dynamic_workflow_configuration</element>
-            <position>4</position>
-            <sys_created_by>admin.capppmar</sys_created_by>
-            <sys_created_on>2018-02-08 10:56:15</sys_created_on>
-            <sys_id>dadb8213db845300107172e9bf961993</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_tieoy_dyn_wf_m2m_item2conf" sys_domain="global" view="Default view">02db8213db845300107172e9bf96197f</sys_ui_section>
-            <sys_updated_by>admin.capppmar</sys_updated_by>
-            <sys_updated_on>2018-02-08 10:56:15</sys_updated_on>
+            <sys_updated_by>admin.xxgodzip</sys_updated_by>
+            <sys_updated_on>2018-03-14 07:52:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>order</element>
-            <position>5</position>
-            <sys_created_by>admin.capppmar</sys_created_by>
-            <sys_created_on>2018-02-08 10:56:15</sys_created_on>
-            <sys_id>5edb8213db845300107172e9bf961993</sys_id>
+            <position>1</position>
+            <sys_created_by>admin.xxgodzip</sys_created_by>
+            <sys_created_on>2018-03-14 07:52:25</sys_created_on>
+            <sys_id>78d7e4dadb3cdbc062f27a0bbf9619f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_tieoy_dyn_wf_m2m_item2conf" sys_domain="global" view="Default view">02db8213db845300107172e9bf96197f</sys_ui_section>
-            <sys_updated_by>admin.capppmar</sys_updated_by>
-            <sys_updated_on>2018-02-08 10:56:15</sys_updated_on>
+            <sys_updated_by>admin.xxgodzip</sys_updated_by>
+            <sys_updated_on>2018-03-14 07:52:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>6</position>
-            <sys_created_by>admin.capppmar</sys_created_by>
-            <sys_created_on>2018-02-08 10:56:15</sys_created_on>
-            <sys_id>dedb8213db845300107172e9bf961993</sys_id>
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin.xxgodzip</sys_created_by>
+            <sys_created_on>2018-03-14 07:52:25</sys_created_on>
+            <sys_id>f8d7e4dadb3cdbc062f27a0bbf9619f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_tieoy_dyn_wf_m2m_item2conf" sys_domain="global" view="Default view">02db8213db845300107172e9bf96197f</sys_ui_section>
-            <sys_updated_by>admin.capppmar</sys_updated_by>
-            <sys_updated_on>2018-02-08 10:56:15</sys_updated_on>
+            <sys_updated_by>admin.xxgodzip</sys_updated_by>
+            <sys_updated_on>2018-03-14 07:52:25</sys_updated_on>
             <sys_user/>
-            <type>.end_split</type>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dynamic_workflow_configuration</element>
+            <position>3</position>
+            <sys_created_by>admin.xxgodzip</sys_created_by>
+            <sys_created_on>2018-03-14 07:52:25</sys_created_on>
+            <sys_id>7cd7e4dadb3cdbc062f27a0bbf9619f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tieoy_dyn_wf_m2m_item2conf" sys_domain="global" view="Default view">02db8213db845300107172e9bf96197f</sys_ui_section>
+            <sys_updated_by>admin.xxgodzip</sys_updated_by>
+            <sys_updated_on>2018-03-14 07:52:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dynamic_workflow_item</element>
+            <position>4</position>
+            <sys_created_by>admin.xxgodzip</sys_created_by>
+            <sys_created_on>2018-03-14 07:52:25</sys_created_on>
+            <sys_id>fcd7e4dadb3cdbc062f27a0bbf9619f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_tieoy_dyn_wf_m2m_item2conf" sys_domain="global" view="Default view">02db8213db845300107172e9bf96197f</sys_ui_section>
+            <sys_updated_by>admin.xxgodzip</sys_updated_by>
+            <sys_updated_on>2018-03-14 07:52:25</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
